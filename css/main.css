@@ -1,0 +1,477 @@
+/* 
+    Document   : main.css
+    Created on : 03.04.2013, 01:54:56
+    Author     : Ascent2 Team
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    text-shadow: black 1px 1px 0px;
+}
+
+a img {
+    border: 0;
+}
+
+body {
+    background-image: url('../img/background.png');
+}
+
+.page-all {
+    width: 1440px;
+    min-height: 563px;
+    background-image: url('../img/background_logo.png');
+    background-repeat: no-repeat;
+    padding-top: 50px;
+    margin: 0 auto;
+}
+
+.navigation {
+    width: 970px;
+    height: 117px;
+    margin: 0 auto;
+    background: url('../img/navigation.png') bottom center no-repeat;
+    position: relative;
+    z-index: 6;
+}
+
+.navigation .menu {
+    clear: left;
+    padding-top: 7px;
+    padding-left: 6px;
+    position: relative;
+}
+
+.navigation .menu ul li:first-child {
+    width: 113px;
+    margin-left: 0px;
+}
+
+.navigation .menu ul li:last-child {
+    width: 117px;
+}
+
+.navigation .menu ul li {
+    float: left;
+    list-style: none;
+    width: 121px;
+    text-align: center;
+    line-height: 56px;
+}
+.navigation .menu ul li:not(.last) {
+    background-image: url('../img/navigation_sep.png');
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.navigation .menu ul li:hover {
+    background-color: rgba(0, 0, 0, 0.35);
+}
+
+.navigation .menu ul li a {
+    color: #d9a91a !important;
+    font-weight: bold;
+}
+
+.logo-container {
+    width: 970px;
+    margin: 0 auto;
+    margin-top: -30px;
+    margin-bottom: 30px;
+}
+
+.logo {
+    width: 360px;
+    height: 124px;
+    background-image: url('../img/logo.png');
+}
+
+.userInfo {
+    background-image: url('../img/navigation_only.png');
+    height: 70px;
+    width: 970px;
+    margin: 0 auto;
+    position: relative;
+    top: -60px;
+}
+
+.navigation.only-navi {
+    background-image: url('../img/navigation_only.png');
+    height: 70px;
+}
+
+.downvote {
+    position: relative;
+    top: -20px;
+    right: 40px;
+    z-index: 5;
+    width: 970px;
+    margin: 0 auto;
+}
+
+.downvote .container {
+    float: right;
+}
+
+.downvote .container div {
+    position: relative;
+    top: 0px;
+    width: 235px;
+    height: 108px;
+}
+
+.downvote .container div:hover {
+    background-position: 0 108px;
+}
+
+.downvote .download {
+     background-image: url('../img/download.png');
+     position: relative;
+     z-index: 5;
+}
+
+.downvote .vote4us {
+    margin-top: -20px;
+    background-image: url('../img/vote4us.png');
+    position: relative;
+    z-index: 4;
+}
+
+.logo:hover {
+    background-position: 0 124px;
+}
+
+.page-wrapper {
+    clear: both;
+    width: 999px;
+    margin: 0 auto;
+}
+
+.page-wrapper .left {
+    margin-top: 30px;
+    float: left;
+}
+
+.page-wrapper .right {
+    margin-top: 30px;
+    float: right;
+}
+
+.page-wrapper .middle {
+    margin-left: 3px;
+    margin-top: 30px;
+    float: left;
+}
+
+.page-wrapper .column .box {
+    width: 233px;
+}
+
+.page-wrapper .column .box .title {
+    width: 233px;
+    height: 71px;
+    background-image: url('../img/small_title.png');
+}
+
+.page-wrapper .column .box .content {
+    padding-left: 28px;
+    padding-right: 18px;
+    background-image: url('../img/small_box_content.png');
+    color: #6d3828;
+    font-family: 'Trebuchet MS';
+}
+
+.page-wrapper .column .box .nopadding {
+    padding-left: 17px;
+}
+
+.page-wrapper .column .box .content a {
+    text-decoration: none;
+    color: #6d3828;
+}
+
+.page-wrapper .column .box .content img {
+    position: relative;
+    top: 1px;
+}
+
+.page-wrapper .column .box .footer {
+    background-image: url('../img/small_box_footer.png');
+    height: 35px;
+}
+
+.page-wrapper .column .box .footer-with-info {
+    background-image: url('../img/small_box_footer_2.png');
+    height: 75px;
+    padding-left: 40px;
+    padding-top: 10px;
+    color: #414141;
+}
+
+.page-wrapper .column .box .footer-with-info * {
+    font-size: 10px;
+    font-family: 'Trebuchet MS';
+    text-shadow: black 1px 1px 0px;
+}
+
+.page-wrapper .column .box .footer-with-info b {
+    color: #5c5c5c;
+}
+
+.page-wrapper .column .box .content table {
+    border-collapse: collapse;
+}
+
+.page-wrapper .column .box .content table tr {
+    height: 20px;
+}
+
+.page-wrapper .column .box .content table tr.head {
+    background-color: #0e0908;
+    color: #6d3828;
+}
+
+.page-wrapper .column .box .content table tr * {
+    text-align: left;
+    color: #6d3828;
+}
+
+.page-wrapper .column .box .content table tr:nth-child(2) td {
+    color: #7b5c01;
+}
+
+.page-wrapper .column .box .content table tr:nth-child(3) td {
+    color: #6e6e6e;
+}
+
+.page-wrapper .column .box .content table tr:nth-child(4) td {
+    color: #815d4b;
+}
+
+.page-wrapper .column .box .content table tr td:nth-child(3), .page-wrapper .column .box .content table tr th:nth-child(3) {
+    padding-left: 5px;
+    border-left: 1px solid rgba(0, 0, 0, 0.2);
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.page-wrapper .column .box .content table tr.first {
+    background-color: #160e0c;
+}
+
+.page-wrapper .middle .box {
+    width: 528px;
+}
+
+.page-wrapper .middle .box .title {
+    background-image: url('../img/box_header.png');
+    height: 80px;
+}
+
+.page-wrapper .middle .box .content {
+    padding-left: 28px;
+    padding-right: 18px;
+    background-image: url('../img/box_content.png');
+    color: #664f47;
+    font-family: 'Trebuchet MS';
+}
+
+.page-wrapper .middle .box .content h2 {
+    font-size: 16px;
+    font-family: 'Segoe Print';
+    position: relative;
+    top: -10px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+    margin-right: 7px;
+}
+
+.page-wrapper .middle .box .content a {
+    color: #664f47;
+}
+
+.page-wrapper .middle .box .footer {
+    background-image: url('../img/box_footer_small.png');
+    height: 32px;
+    padding-left: 40px;
+    padding-top: 9px;
+    color: #414141;
+}
+
+.page-wrapper .middle .box .footer-with-info {
+    background-image: url('../img/box_footer.png');
+    height: 39px;
+    padding-left: 40px;
+    padding-top: 9px;
+    color: #414141;
+}
+
+.page-wrapper .middle .box .footer-with-info * {
+    font-size: 10px;
+    font-family: 'Trebuchet MS';
+    text-shadow: black 1px 1px 0px;
+}
+
+.page-wrapper .middle .box .footer-with-info p {
+    float: left;
+}
+
+.page-wrapper .middle .box .footer-with-info b {
+    color: #5c5c5c;
+}
+
+.page-wrapper .middle .box .footer-with-info a {
+    float: right;
+    margin-right: 30px;
+    color: #4c2922;
+    text-decoration: none;
+}
+
+.middle .box .title .font {
+    position: relative;
+    top: -1px;
+}
+
+.left .box .title .font {
+    position: relative;
+    top: 0px;
+}
+
+.right .box .title .font {
+    position: relative;
+    top: -1px;
+}
+
+.box .title .icon {
+    margin-left: 18px;
+    margin-top: 17px;
+}
+
+.page-wrapper .middle .icon {
+    margin-top: 19px;
+}
+
+.copyright {
+    margin-top: 10px;
+    width: 970px;
+    height: 45px;
+    background-image: url('../img/copyright.png');
+    margin: 0 auto;
+}
+
+.copyright .inner {
+    width: 498px;
+    margin: 0 auto;
+    padding-top: 13px;
+}
+
+input[type=text], input[type=password] {
+    width: 158px;
+    height: 29px;
+    background-image: url('../img/input.png');
+    background-color: transparent;
+    border: 0;
+    outline: 0 none;
+    padding-left: 4px;
+    margin-right: 4px;
+    font-family: 'Verdana';
+    font-size: 11px;
+    color: #c6641e;
+    text-shadow: black 1px 1px 0px;
+}
+
+#username[type=text] {
+    background-image: url('../img/input_user.png');
+    padding-left: 35px;
+    width: 127px;
+}
+
+#password[type=password] {
+    background-image: url('../img/input_password.png');
+    letter-spacing: 1px;
+    padding-left: 35px;
+    width: 127px;
+}
+
+input[type=submit], input[type=reset] {
+    font-family: 'Verdana';
+    font-size: 11px;
+    font-weight: bold;
+    color: #331500;
+    width: 78px;
+    height: 35px;
+    background-image: url('../img/button.png');
+    background-color: transparent;
+    border: 0;
+    text-shadow: none;
+}
+
+input[type=submit]:hover, input[type=reset]:hover {
+    background-position: 0 35px;
+}
+
+.middle input[type=submit], .middle input[type=reset] {
+    width: 108px;
+    background-image: url('../img/button_big.png');
+}
+
+input[disabled=disabled][type=text], input[disabled=disabled][type=password] {
+    color: #414141;
+}
+
+select {
+    text-shadow: none;
+}
+
+select option {
+    text-shadow: none;
+}
+
+/*
+ * Itemshop
+ */
+
+.itemshop-image {
+    float: left;
+    width: 60px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 1px solid #271915;
+    margin-right: 10px;
+}
+
+.itemshop-image .itemshop-overlay {
+    color: #6d3828;
+    height: 20px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    line-height: 20px;
+}
+
+.itemshop-desc {
+    padding-top: 2px;
+    font-size: 10px;
+}
+
+.itemshop-desc h3 {
+    color: #b4800f;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.itemshop-desc b {
+    font-size: 10px;
+    color: #6d3828;
+}
+
+.itemshop-desc a {
+    text-decoration: none;
+    color: #65534d;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+ul {
+    list-style: none;
+}
